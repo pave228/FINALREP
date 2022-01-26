@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root{
@@ -480,7 +481,7 @@ div.freecm{
 .cm2{
  width: 190px;
  height: 50px;
- padding-left: 20;
+ padding-left: 20px;
 
  font-family: Rubik;
  font-style: normal;
@@ -950,7 +951,7 @@ color: #0B132A;
 
 
 .star{
-    padding-left: 10;
+    padding-left: 10px;
     padding-right: 30px;
     margin-top: -2px;
 }
@@ -1094,7 +1095,7 @@ color: #0B132A;
     width: 410px;
     height: 16px;
     margin-left: 70px;
-    margin-top: 20;
+    margin-top: 20px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -1221,7 +1222,7 @@ ul.fr, ul.fr2{
 ul.fr li{
     text-decoration: none;
     margin-top: 3px;
-    padding-right: -40px;
+    margin-right: -40px;
     color: var(--text-color1);
     list-style-type: none;
     text-decoration: none;
@@ -1247,7 +1248,7 @@ ul.fr2 li:hover{
 ul.fr li:hover{
     text-decoration: underline;
     text-decoration: none;
-    padding-right: -40px;
+    margin-right: -40px;
     color: var(--text-color1);
     list-style-type: none;
     text-decoration: none;
@@ -1348,8 +1349,8 @@ color: #4F5665;
 }
 
 .WhenCon{
-    margin-top: 10px;
-    margin-left: -30px;
+    padding-top: 0px;
+    margin-left: 0px;
 
 }
 

@@ -17,24 +17,24 @@
 			</div>
 		 <nav>
             <ul class="hr">
-            	<div class="grey">
+            	
                 <li><a href="index.html">About</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Help</a></li>
-            </div>
+            
             </ul>
         </nav>
         <div class="SignIn">
         	<a href="form.html">Sign In</a>
     	</div>
     	<div class="SignUp">
-        	
-        		<a href="form.html"><button class="SUtxt">Sign Up</button></a>
-    		
+        	<form action="form.html" target="_blank">
+        		<button class="SUtxt">Sign Up</button>
+    		</form>
     	</div>
-    </div class=headr>
+    </div>
 
 	</header>
 
@@ -61,13 +61,16 @@
 	<legend class="FH">Others</legend>
 	<div class="mainf">
 <label class="txt">Birth Date<input class="datebox" type="date" name="date"></label><p></p>
-<label class="txt">Gender<div class="genderch"><input type="radio" name="radio" value=" ">Man</label>
+<label class="txt">Gender</label><span class="genderch"><input type="radio" name="radio" value=" "><label class="txt">Man</label>
         <label class="txt"><input type="radio" name="radio" value=" ">Woman</label>
-        <label class="txt"><input type="radio" name="radio" value=" ">Other</label></div><p></p>
-        <label class="txt">When can we contact you?<div class="WhenCon"><input type="checkbox" name="checked" value=" ">Morning</label>
+        <label class="txt"><input type="radio" name="radio" value=" ">Other</label></span><p></p>
+        <label class="txt">When can we contact you?</label><p></p><span class="WhenCon"><label class="txt"><input type="checkbox" name="checked" value=" ">Morning</label>
         <label class="txt"><input type="checkbox" name="checked" value=" ">Day</label>
         <label class="txt"><input type="checkbox" name="checked" value=" ">Evening</label>
-        <label class="txt"><input type="checkbox" name="checked" value=" ">Night</label></div></div></fieldset>
+        <label class="txt"><input type="checkbox" name="checked" value=" ">Night</label></span>
+        
+    </div>
+</fieldset>
 
 
 <div  class="SignUpF">
@@ -78,7 +81,7 @@
 
     	<div  class="SignUpF">
         	
-        		<button type="disabled" class="SUFtxt">Reset</button>
+        		<button class="SUFtxt">Reset</button>
     		
     	</div>
 </form>
